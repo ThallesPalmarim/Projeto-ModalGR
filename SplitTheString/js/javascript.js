@@ -2,6 +2,12 @@ botao.addEventListener("click", function() {
     event.preventDefault();
     const pessoa = nome.value;
 
+    if (!pessoa.trim()) {
+        alert("Digite um texto válido");
+        location.reload();
+        return;
+    }
+
         const partes = pessoa.split(',').map(parte => parte.trim());
         const numerica = [];
         const NaoNumerica = [];
