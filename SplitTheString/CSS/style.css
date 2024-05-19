@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+  }
+header{
+    width: 100%;
+}
+h1{
+    background-color: blue;
+    width: 100%;
+    margin: 0;
+    font-size: 3em;
+}
+
+.white{
+    color: white;
+}
+.orange{
+    color: orange;
+}
+#nome{
+    margin-bottom: 10px;
+    width: 300px;
+}
+#string{
+    border: 1.5px solid blue;
+    font-size: 3em;
+    padding: 30px;
+    border-radius: 10px;
+}
+#string:empty{
+    display:none;
+}
+#numero{
+    border: 1.5px solid purple;
+    font-size: 3em;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#numero:empty{
+    display:none;
+}
