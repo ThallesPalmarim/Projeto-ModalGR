@@ -54,3 +54,12 @@ h1{
     align-items: center;
     justify-content: center;
 }
+#botao{
+    background-color: #0f1a4b;
+    color:#ff8a00;
+    border-radius: 5px;
+}
+#botao:hover{
+    background-color: #ff8a00;
+    color: #0f1a4b;
+}
